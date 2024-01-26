@@ -9,3 +9,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.0
+URL: https://github.com/JohnCervantes14/MATH4753CERV24
+BugReports: https://github.com/JohnCervantes14/MATH4753CERV24/issues
