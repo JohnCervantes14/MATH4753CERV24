@@ -1,0 +1,51 @@
+---
+title: "package for all of functions from class"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{package for all of functions from class}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753CERV24)
+```
+
+# Introduction
+This package was created in my journey along MATH 4753. It contains functions that showcase various topics we learned throughout the semester. Below I will demonstrate some of those functions 
+
+## Function 1: myncurve()
+```{r}
+myncurve(4,2,6)
+```
+
+The myncurve() function returns a list of the mean, variance, and the area of probability. Additionally it also produces the plot of the probability area. It is equivalent to using the pnorm() function. 
+
+## Function 2: myclt()
+```{r}
+myclt(n=5, iter=1000)
+```
+
+The myclt() function produces a histogram of the sums of the given sample size and number of iterations. It creates a histogram as well to represent these values.
+
+## Function 3: myplot()
+```{r}
+myplot(5)
+```
+The function myplot() produces a number given x for the plot 0.86089580 + 1.46959217(x) - 0.02745726(x^2)
+
+
+
+## Function 4: ntickets()
+```{r}
+ntickets(N=400, gamma=0.02, p=0.95)
+```
+The function ntickets() is the function I produced from project1. It creates a for plot for the discrete probability function and a plot for the continuous function. Then returns a list of the optimal number of tickets to be sold for each case.s
+
